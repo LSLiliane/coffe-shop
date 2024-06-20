@@ -1,0 +1,56 @@
+:root {
+    --bs-link-color:#86502b;
+    --bs-link-hover-color: #AF8363;
+}
+
+.btn{
+    --bs-btn-bg: #AF8363;
+    --bs-btn-border-color: #86502b;
+    --bs-btn-hover-bg: #86502b;
+    --bs-btn-hover-border-color: #86502b;
+    --bs-btn-active-border-color: #86502b;
+    --bs-btn-disabled-bg: #86502b;
+    --bs-btn-disabled-border-color: #86502b;
+    --bs-btn-active-bg: #86502b;
+}
+
+main {
+    margin-top: 5rem;
+}
+
+section {
+    scroll-margin-top: 6rem;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+/*Tamanho do carousel*/
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(31, 31, 31));
+    position: absolute;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-menu img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #AF8363;
+}
